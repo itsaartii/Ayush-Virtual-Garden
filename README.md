@@ -60,9 +60,5 @@ To get started with the project locally:
 
 ---
 
-## 📜 License
-This project is licensed under the [MIT License](LICENSE).
 
---- 
 
-This format gives a well-structured, professional README for your project!
