@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Garden Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Chat Container -->
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Virtual Garden Chat Assistant</h2>
+        </div>
+        <div id="chat-box" class="chat-box">
+            <!-- Messages will appear here -->
+        </div>
+        <div class="predefined-buttons">
+            <button onclick="sendMessage('What is the best time to water plants?')">Best time to water plants?</button>
+            <button onclick="sendMessage('Which plants are suitable for indoors?')">Indoor suitable plants?</button>
+            <button onclick="sendMessage('How to take care of aloe vera?')">Care for aloe vera?</button>
+            <button onclick="sendMessage('How often should I fertilize my plants?')">Fertilizing frequency?</button>
+            <button onclick="sendMessage('What are the benefits of having plants indoors?')">Benefits of indoor plants?</button>
+            <button onclick="sendMessage('Which herbs are easy to grow at home?')">Easy-to-grow herbs?</button>
+            <button onclick="sendMessage('How do I prevent pests on my plants?')">Preventing pests?</button>
+            <button onclick="sendMessage('How much sunlight do herbs need?')">Sunlight for herbs?</button>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button onclick="sendCustomMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

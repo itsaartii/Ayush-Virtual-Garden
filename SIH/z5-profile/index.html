@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Herbal Garden - User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Login Container -->
+    <div id="login-container" class="container active">
+        <div class="login-card">
+            <h2>Welcome to Virtual Herbal Garden</h2>
+            <p>Grow your knowledge of medicinal plants and track your progress!</p>
+            <form id="loginForm">
+                <input type="text" id="username" placeholder="Username" required>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p id="error-message"></p>
+        </div>
+    </div>
+
+    <!-- Profile Container -->
+    <div id="profile-container" class="container">
+        <h2>Your Virtual Herbal Garden Profile</h2>
+        <div class="profile-info">
+            <img id="profile-pic" src="https://i.pinimg.com/originals/0d/30/a8/0d30a8d654623998b80fcc6339a52d80.jpg" alt="User Profile Picture">
+            <p><strong>Username:</strong> <span id="profile-username"></span></p>
+            <p><strong>Email:</strong> <span id="profile-email">anshikarajeshjain.com</span></p>
+            <p><strong>Joined:</strong> <span id="profile-joined">September 2024</span></p>
+        </div>
+
+        <div class="garden-section">
+            <h3>Your Garden Overview</h3>
+            <ul id="plant-list">
+                <li>Aloe Vera - Last Watered: 2 days ago</li>
+                <li>Lavender - Last Watered: 4 days ago</li>
+                <li>Basil - Last Watered: 1 day ago</li>
+            </ul>
+        </div>
+
+        <div class="dashboard-section">
+            <h3>Performance Dashboard</h3>
+            <canvas id="performance-chart" width="200" height="100"></canvas>
+            <p><strong>Quiz Performance:</strong> You’ve completed 5 quizzes with an average score of 85%.</p>
+            <p><strong>Badges Earned:</strong> Herbal Expert, Garden Guru</p>
+        </div>
+
+        <div class="favorites-section">
+            <h3>Your Favorite Plants</h3>
+            <ul id="favorites-list">
+                <li>
+                    <img src="https://th.bing.com/th/id/R.d54875a78fec415e4f5bb960d8aadf8a?rik=AR2O49K%2f80O32w&riu=http%3a%2f%2fwww.happybeeherbs.com%2fstore%2fimg%2fcms%2fpeppermint.jpg&ehk=NjJ%2b0mk8BIwAXv2xuNbhg77%2bKsHRbFblErPnrjL60Uo%3d&risl=&pid=ImgRaw&r=0" alt="Peppermint">
+                    Peppermint
+                </li>
+                <li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Chamomile%40original_size.jpg" alt="Chamomile">
+                    Chamomile
+                </li>
+                <li>
+                    <img src="https://homeandgardendigest.com/wp-content/uploads/2019/11/rosemary-plant-flower.png" alt="Rosemary">
+                    Rosemary
+                </li>
+            </ul>
+        </div>
+
+        <div class="tips-section">
+            <h3>Garden Tips</h3>
+            <p>Remember to water your plants early in the morning to prevent evaporation and ensure your plants get the best hydration!</p>
+        </div>
+
+        <div class="activities-section">
+            <h3>Recent Activities</h3>
+            <p>Last Plant Added: Peppermint - Added on 1st September 2024</p>
+            <p>Last Garden Check: 3rd September 2024</p>
+        </div>
+
+        <button id="logout-btn">Logout</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

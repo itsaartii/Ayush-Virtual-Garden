@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    max-width: 600px; /* Increased width */
+    width: 100%;
+}
+
+.theme-garden {
+    border: 2px solid #4CAF50;
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+#recommendation {
+    margin-top: 20px;
+}
+
+#recommendation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recommendation li {
+    background: #e8f5e9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #c8e6c9;
+    cursor: pointer;
+}
+
+#recommendation li:hover {
+    background-color: #c8e6c9;
+}
+
+#plant-description {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f8e9;
+    border: 1px solid #dcedc8;
+    border-radius: 4px;
+}
+
+.hidden {
+    display: none;
+}

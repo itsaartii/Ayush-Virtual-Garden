@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.calendar-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #388e3c;
+    margin-bottom: 20px;
+}
+
+#season-select {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #66bb6a;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.plant-calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.plant-card {
+    background-color: #e8f5e9;
+    border: 1px solid #388e3c;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    text-align: left;
+}
+
+.plant-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+.plant-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}

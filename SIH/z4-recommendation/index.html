@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container theme-garden">
+        <h1>Plant Recommendation</h1>
+        <form id="plant-form">
+            <label for="preference">What type of plant are you interested in?</label>
+            <select id="preference" name="preference">
+                <option value="medicinal">Medicinal</option>
+                <option value="aromatic">Aromatic</option>
+                <option value="edible">Edible</option>
+                <option value="cultural">Cultural</option>
+                <option value="ornamental">Ornamental</option>
+                <option value="succulent">Succulent</option>
+                <option value="shade">Shade</option>
+                <option value="perennial">Perennial</option>
+                <option value="annual">Annual</option>
+            </select>
+            <button type="submit">Get Recommendation</button>
+        </form>
+        <div id="recommendation"></div>
+        <div id="plant-description" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

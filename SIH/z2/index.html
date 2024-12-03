@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <section class="slider_container">
+    <div class="container">
+        <div class="swiper card_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="https://www.rd.com/wp-content/uploads/2016/06/10-medicinal-herbs-you-can-grow-peppermint.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="https://www.rd.com/wp-content/uploads/2016/06/04-medicinal-herbs-you-can-grow-feverfew.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="https://th.bing.com/th/id/OIP.U69tuyWvnMXCqxSctjBeDAHaHa?w=500&h=500&rs=1&pid=ImgDetMain" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="https://th.bing.com/th/id/OIP.Oc7NvOuBNPSSY8EPUcPX0gHaFY?rs=1&pid=ImgDetMain" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="https://th.bing.com/th/id/R.e09eab04da2a405d48c4d9bc51d9d542?rik=2p1AKEYi%2bVFQAw&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f2083%2f6855%2fproducts%2faloeveranbs_1024x1024.jpg%3fv%3d1606788903&ehk=bM6G%2b7QVYScUbzuTVnZJ0JwI9wbRUX4jio6iZegVSAM%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="https://th.bing.com/th/id/R.f22606c130149e6a87e228156b7e7202?rik=xZf7DoHWyJ49Iw&riu=http%3a%2f%2f1.bp.blogspot.com%2f-n1RZPmu6t9o%2fU9KKa6hwfvI%2fAAAAAAAAAQg%2foqg67W1pulA%2fs1600%2funnamed.jpg&ehk=mjSbDwUkGsdp92pXxGenMKD8NbwLWOK6gQUUXSEbeCc%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="https://www.thespruce.com/thmb/G5GEcUNdNrwLgkj1mLYob_AW4Pw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1148390816-8a04f31d8ce648209de308b3957aed6d.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="img_box">
+                        <img src="https://www.rd.com/wp-content/uploads/sites/2/2016/06/09-medicinal-herbs-you-can-grow-parsley.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+  </section>
+
+
+  <footer class="footer-container">
+    <div class="footer-content">
+        <div class="footer-section about">
+            <h3>About Virtual Garden</h3>
+            <p>Discover the world of medicinal plants in our virtual herbal garden. Explore their uses and learn how nature's wonders contribute to health and wellness. <br> AYUSH stands for Ayurveda, Yoga & Naturopathy, Unani, Siddha, and Homeopathy, focusing on traditional Indian healthcare systems that promote holistic wellness and natural treatments using ancient practices and herbal remedies.</p>
+        </div>
+
+        <div class="footer-section feedback">
+            <h3>Leave Your Feedback</h3>
+            <form id="feedback-form">
+                <textarea id="feedback" rows="4" placeholder="Share your thoughts..."></textarea>
+                <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+            </form>
+        </div>
+
+  
+    </div>
+
+   
+
+</footer>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="text/javascript">
+    var swiper = new Swiper(".card_slider", {
+      slidesPerView: 3,
+      spaceBetween: 90,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+</body>
+</html>

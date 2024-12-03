@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#heading{
+    margin: 2vw 0;
+    height: 10vh;
+    width: 100vw;
+    
+}
+
+#heading h2{
+    color: rgb(33, 72, 33);
+
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 400;
+    
+}
+
+#page1{
+    height: 115vh;
+    width:  80vw;
+    background-color: rgba(168, 162, 162, 0.14);
+    margin-left: 9vw;
+    /* border: 1px solid rgba(0, 0, 0, 0.341); */
+
+}
+#page1 #threed{
+    
+    height: 110vh;
+    width: 100%;
+}
+#page1 h4{
+    height: 5vh;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.715);
+    font-weight: 400;
+    font-size: 1.9vh;
+    padding-top: 1.5vh;
+}
+#page2{
+    /* height: 100vh;
+    width: 100vw; */
+    /* background-color: aqua; */
+    padding: 20vh 3vw;
+    
+}
+#page2 h1{
+    color: rgb(33, 72, 33);
+    font-size: 3.5vw;
+    font-weight: 400;
+}
+
+#page2 h3{
+    padding-top: 5vh;
+    width: 75%;
+    font-size: 1.2vw;
+    font-weight: 300;
+    word-spacing: 2px;
+    padding-bottom: 5vh;
+    line-height: 4vh;
+
+}
+
+.content-container{
+    padding: 5vh;
+    position: relative;
+
+}
+
+.content-container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("https://pngimg.com/d/aloe_vera_PNG38.png") ;
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 200vh;
+    opacity: .2;
+    z-index: 2;
+}
+
+.content-container .contents{
+    position: relative;
+    z-index: 5;
+}
+
+
+
+
+
+/* fghjkjhgfghjk */
+
+.content-container2{
+    padding: 5vh;
+    position: relative;
+
+}
+
+.content-container2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("https://pngimg.com/d/aloe_vera_PNG38.png") ;
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 200vh;
+    opacity: .2;
+    z-index: 2;
+}
+
+.content-container2 .contents2{
+    position: relative;
+    z-index: 5;
+}
+
+/* dfghjklkjhgfdfghjk */
+
+
+
+.content-container3{
+    padding: 5vh;
+    position: relative;
+
+}
+
+.content-container3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("https://pngimg.com/d/aloe_vera_PNG38.png") ;
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 200vh;
+    opacity: .2;
+    z-index: 2;
+}
+
+.content-container3 .contents2{
+    position: relative;
+    z-index: 5;
+}

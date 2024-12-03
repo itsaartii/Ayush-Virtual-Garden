@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#page2{
+    height: 160vh;
+    width: 100vw;
+    /* background-color: #ef2020; */
+    
+    position: relative;
+}
+#page2 #pg2-nav{
+    position: absolute;
+    top: 1%;
+    color: rgb(255, 255, 255);
+}
+
+#page2 #pg2-nav #pg2-left-nav{
+    display: flex;
+    font-size: 2vh;
+
+}
+#page2 #pg2-nav #pg2-left-nav h4{
+    font-weight: 500;
+
+}
+#pg2-left-nav i{
+    padding-right: 0.4vw;
+    padding-left: 1vw;
+
+}
+
+#page2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page2 #pg2-text{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: rgb(255, 255, 255);
+}
+#page2 #pg2-text h1{
+    font-size: 10vh;
+}
+#page2 #pg2-text h5{
+    font-size: 2.1vh;
+    font-weight: 400;
+    padding-top: 2.7vh;
+    text-align: center;
+}
+#page3{
+    /* height: 100vh;
+    width: 100vw; */
+    /* background-color: greenyellow; */
+    padding-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#page3 .box{
+    height: 60vh;
+    width: 43vw;
+    margin-bottom: 50vh;
+}
+#page3 .box .box-img{
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(161, 159, 159, 0.6);
+}
+#page3 .box .box-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page3 .box .box-img .img-desc{
+    /* background-color: pink; */
+    text-align: center;
+    line-height: 2.8vh;
+    padding-top: 8vh;
+}
+
+#page3 .box .box-img .img-desc h4{
+    color: rgba(0, 0, 0, 0.715);
+    font-weight: 500;
+    font-size: 2vh;
+}
+#page3 .box .box-img .img-desc h5{
+    color: rgba(0, 0, 0, 0.715);
+    font-weight: 400;
+    font-size: 1.7vh;
+}

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* General styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    margin: 0;
+    background-color: #e7f5e8;
+}
+
+.container {
+    display: none;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+
+.container.active {
+    display: block;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h2 {
+    color: #2f6d31;
+    margin-bottom: 10px;
+}
+
+.login-card p {
+    color: #4a4a4a;
+}
+
+input {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #2f6d31;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.profile-info {
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-info img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid #2f6d31;
+}
+
+.garden-section, .dashboard-section, .favorites-section, .tips-section, .activities-section {
+    text-align: left;
+    margin-top: 20px;
+    color: #3d7b4e;
+    background-color: #f1f8f3;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+#logout-btn {
+    padding: 10px 20px;
+    background-color: #c82333;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#logout-btn:hover {
+    background-color: #a71d2a;
+}

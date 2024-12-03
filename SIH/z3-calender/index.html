@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seasonal Plant Calendar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calendar-container">
+        <h1>Herbal Virtual Garden: Seasonal Plant Calendar</h1>
+        <select id="season-select" onchange="updateCalendar()">
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+            <option value="autumn">Autumn</option>
+            <option value="winter">Winter</option>
+        </select>
+        <div class="plant-calendar" id="plant-calendar">
+            <!-- Calendar content will be generated here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
